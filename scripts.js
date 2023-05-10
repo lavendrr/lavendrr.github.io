@@ -80,7 +80,7 @@ function togglePlay() {
 let img = document.getElementById("elevator");
 let button1 = document.getElementById("button1");
 
-function changeToBW() {
+function openClose() {
 
     if (img.getAttribute('src') == "https://i.imgur.com/kV0v3wY.png") {
         img.setAttribute('src', "https://i.imgur.com/2u658F0.png");
@@ -90,4 +90,4 @@ function changeToBW() {
     }
 }
 
-button1.addEventListener("click", changeToBW);
+button1.addEventListener("click", openClose);
