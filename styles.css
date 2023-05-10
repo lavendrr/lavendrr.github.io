@@ -1,4 +1,24 @@
 body {
-    background-color: seagreen;
-    /* background-image: url("https://avatars.githubusercontent.com/u/39411054?v=4"); */
+  background-color: rgb(200,200,255);
+  text-align: center;
+  padding: 30px;
+}
+
+.heading {
+    background-color: rgb(154, 227, 188);
+    /* background-image: url("https://t4.ftcdn.net/jpg/03/27/36/95/360_F_327369570_CAxxxHHLvjk6IJ3wGi1kuW6WTtqjaMpc.jpg"); */
+    font-family: "Helvetica", sans-serif;
+    border-style: dashed;
+    text-align: center;
+    width: 50%;
+    height: auto;
+    margin: auto;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-bottom: 10px;
+  }
+
+img {
+    display: inline-block; 
+    width: 10%;
   }

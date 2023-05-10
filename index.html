@@ -1,21 +1,30 @@
 <!DOCTYPE html>
-<html>
+<html lang="">
+
 <head>
-    <link rel="stylesheet" href="styles.css">
-    <title>Page Title</title>
-    <script src="scripts.js"></script>
+  <link rel="stylesheet" href="styles.css">
+  <title>RM Assignment 6</title>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/0.5.16/p5.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/0.5.16/addons/p5.sound.js"></script>
 </head>
+
 <body>
 
-    <h1>This is a Heading</h1>
-    <p id="hello">This is a paragraph.</p>
-    <a href="https://splatoon3.ink/gear">Check out Splatoon 3 gear!</a>
-    <!-- <img src="https://avatars.githubusercontent.com/u/39411054?v=4" alt="alternatetext"> -->
-    <audio controls>
-        <source src="rickysong.wav" type="audio/wav">
-      </audio>
-      <button onclick="sin()">Hello</button>
+  <div class="heading">
+
+    <h1>Assignment 6 - Web Audio</h1>
+    <h2>Ricky Moctezuma</h2>
+    <p>Open and close the elevator to play and pause the elevator music, and check out the audio visualizer below that responds to the music's amplitude. Enjoy!</p>
+    <a href="https://freesound.org/people/YellowTree/sounds/686020/">Audio source from Freesound.org</a>
+    <br><br>
+    <button id="button1" onclick="togglePlay()">Open/Close elevator</button>
+    <br><br>
+    <img id = "elevator" class = "image" src = "https://i.imgur.com/kV0v3wY.png">
+    
+  </div>
+
+  <script src="scripts.js"></script>
 
 </body>
-</html>
 
+</html>
